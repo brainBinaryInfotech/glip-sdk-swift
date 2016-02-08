@@ -41,7 +41,7 @@ glip.sendMessage("Hi there!", icon: "http://example.com/icon.png", activity: "Ac
 You can preset your options:
 
 ```swift
-glip = Glip::Poster.new(YOUR_WEBHOOK_URL, icon: "http://example.com/icon.png")
+glip = Poster(YOUR_WEBHOOK_URL, icon: "http://example.com/icon.png")
 glip.send_message("Hi there!"")
 ```
 
