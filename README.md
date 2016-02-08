@@ -1,6 +1,8 @@
 Glip SDK for iOS / OS X in Swift
 ================================
 
+[![Build Status][build-status-svg]][build-status-link]
+[![Coverage Status][coverage-status-svg]][coverage-status-link]
 [![License][license-svg]][license-link]
 
 `GlipKit` is a SDK to make integration with Glip (https://glip.com/) easier. It supports only incoming communications (from you to Glip).
@@ -77,5 +79,9 @@ Glip
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
+ [build-status-svg]: https://api.travis-ci.org/grokify/glip-sdk-swift.svg?branch=master
+ [build-status-link]: https://travis-ci.org/grokify/glip-sdk-swift
+ [coverage-status-svg]: http://codecov.io/github/grokify/glip-sdk-swift/coverage.svg?branch=master
+ [coverage-status-link]: http://codecov.io/github/grokify/glip-sdk-swift?branch=master
  [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
  [license-link]: https://github.com/grokify/glip-sdk-swift/blob/master/LICENSE
