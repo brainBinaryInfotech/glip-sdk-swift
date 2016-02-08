@@ -42,7 +42,7 @@ You can preset your options:
 
 ```swift
 glip = Poster(YOUR_WEBHOOK_URL, icon: "http://example.com/icon.png")
-glip.send_message("Hi there!"")
+glip.sendMessage("Hi there!"")
 ```
 
 ## Supported Swift / XCode Versions
