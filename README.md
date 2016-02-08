@@ -1,5 +1,5 @@
-Glip SDK for iOS / OSX in Swift
-===============================
+Glip SDK for iOS / OS X in Swift
+================================
 
 [![License][license-svg]][license-link]
 
