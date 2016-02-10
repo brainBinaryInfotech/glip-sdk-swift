@@ -53,7 +53,11 @@ GlipKit SDK for iOS / OS X in Swift
 
 5. Start coding
 
-Open `MyApp.xcworkspace` in Xcode to begin coding.
+    Open `MyApp.xcworkspace` in Xcode to begin coding with the following:
+
+    ```swift
+    import  GlipKit
+    ```
 
 
 ## Glip setup
