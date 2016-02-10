@@ -14,6 +14,9 @@ class GlipKitTests: XCTestCase {
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        var guid = "11112222-3333-4444-5555-666677778888"
+        var glip = Poster(guid)
+        XCTAssertEqual("https://hooks.glip.com/webhook/11112222-3333-4444-5555-666677778888", glip.webhookURL)
     }
     
     override func tearDown() {

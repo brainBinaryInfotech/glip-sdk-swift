@@ -10,4 +10,3 @@ if [[ $TRAVIS || $XCPRETTY_INSTALLED == 0 ]]; then
 else
   eval "$TEST_CMD"
 fi
-

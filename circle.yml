@@ -1,0 +1,14 @@
+machine:
+  xcode:
+    version: "7.0"
+dependencies:
+  override:
+    - bundle install
+    - make install
+test:
+  override:
+    - sudo chown :wheel /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS\ *.simruntime/Contents/Resources/RuntimeRoot/usr/lib/dyld_sim
+    - script/cibuild
+    - make coverage
+  post:
+    - bundle exec coveralls-gcov --repo-token ax4y8v34jn33W2UHVGpJ9auomFFSSW1Hv --no-gcov
