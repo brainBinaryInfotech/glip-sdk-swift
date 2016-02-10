@@ -1,6 +1,8 @@
 GlipKit SDK for iOS / OS X in Swift
 ===================================
 
+[![Version](https://img.shields.io/cocoapods/v/GlipKit.svg?style=flat)](http://cocoapods.org/pods/GlipKit)
+[![Platform](https://img.shields.io/cocoapods/p/GlipKit.svg?style=flat)](http://cocoapods.org/pods/GlipKit)
 [![Build Status][build-status-svg]][build-status-link]
 [![Coverage Status][coverage-status-svg]][coverage-status-link]
 [![License][license-svg]][license-link]
@@ -127,6 +129,10 @@ Glip
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
+ [version-svg]: https://img.shields.io/cocoapods/v/GlipKit.svg?style=flat
+ [version-link]: http://cocoapods.org/pods/GlipKit
+ [platform-svg]: https://img.shields.io/cocoapods/p/GlipKit.svg?style=flat
+ [platform-link]: http://cocoapods.org/pods/GlipKit
  [build-status-svg]: https://api.travis-ci.org/grokify/glip-sdk-swift.svg?branch=master
  [build-status-link]: https://travis-ci.org/grokify/glip-sdk-swift
  [coverage-status-svg]: http://codecov.io/github/grokify/glip-sdk-swift/coverage.svg?branch=master
