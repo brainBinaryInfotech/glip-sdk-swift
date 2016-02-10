@@ -9,7 +9,43 @@ GlipKit SDK for iOS / OS X in Swift
 
 ## Installation
 
-TBD
+### CocoaPods
+
+1. Install CocoaPods (if necessary)
+
+```sh
+$ sudo gem install cocoapods
+```
+
+2. Initialize CocoaPods
+
+In your project directory, type the following if necessaryP
+
+```sh
+$ pod init
+```
+
+3. Edit `Podfile`
+
+```ruby
+platform :ios, '8.0'
+use_frameworks!
+
+target 'MyApp' do
+  pod 'GlipKit'
+end
+```
+
+4. Install GlipKit
+
+```sh
+$ pod install
+```
+
+5. Start coding
+
+Open `MyApp.xcworkspace` in Xcode to begin coding.
+
 
 ## Glip setup
 
