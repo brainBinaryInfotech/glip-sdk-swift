@@ -4,7 +4,7 @@ public class Poster {
     let GLIP_WEBHOOK_BASE_URL = "https://hooks.glip.com/webhook/"
     
     public init(webhookURLOrID:String) {
-        self.options = PosterOptions(body: "")
+        options = PosterOptions(body: "")
         let needle: Character = "/"
         if let _ = webhookURLOrID.characters.indexOf(needle) {
             webhookURL = webhookURLOrID
