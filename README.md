@@ -7,40 +7,49 @@ GlipKit SDK for iOS / OS X in Swift
 
 `GlipKit` is a SDK to make integration with Glip (https://glip.com/) easier. It supports only incoming communications (from you to Glip).
 
+## Requirements
+
+* iOS 8.0+
+* Xcode 7.0+
+* Swift 2.0+
+
 ## Installation
 
 ### CocoaPods
 
 1. Install CocoaPods (if necessary)
 
-```sh
-$ sudo gem install cocoapods
-```
+    ```sh
+    $ sudo gem install cocoapods
+    ```
 
 2. Initialize CocoaPods
 
-In your project directory, type the following if necessaryP
+    In your project directory, type the following if necessaryP
 
-```sh
-$ pod init
-```
+    ```sh
+    $ pod init
+    ```
 
 3. Edit `Podfile`
 
-```ruby
-platform :ios, '8.0'
-use_frameworks!
+    ```ruby
+    platform :ios, '8.0'
+    use_frameworks!
 
-target 'MyApp' do
-  pod 'GlipKit'
-end
-```
+    target 'MyApp' do
+      pod 'GlipKit'
+
+      # If using GitHub master branch:
+      # pod 'GlipKit', git: 'https://github.com/grokify/glip-sdk-swift.git'
+    end
+    ```
 
 4. Install GlipKit
 
-```sh
-$ pod install
-```
+    ```sh
+    $ pod install
+    ```
 
 5. Start coding
 
