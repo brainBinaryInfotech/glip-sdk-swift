@@ -25,9 +25,8 @@ GlipKit SDK for iOS / OS X in Swift
 
 2. Initialize CocoaPods
 
-    In your project directory, type the following if necessaryP
-
     ```sh
+    $ cd /path/to/MyApp
     $ pod init
     ```
 
