@@ -50,7 +50,8 @@ public class Poster {
             }
             
             // check for http errors
-            if let httpStatus = response as? NSHTTPURLResponse where httpStatus.statusCode != 200 {                           print("statusCode should be 200, but is \(httpStatus.statusCode)")
+            if let httpStatus = response as? NSHTTPURLResponse where httpStatus.statusCode != 200 {
+                print("statusCode should be 200, but is \(httpStatus.statusCode)")
                 print("response = \(response)")
             }
             
