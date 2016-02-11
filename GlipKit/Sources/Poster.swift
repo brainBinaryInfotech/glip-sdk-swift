@@ -1,8 +1,14 @@
+/// Poster class for sending messages to Glip.
 public class Poster {
     public var options: PosterOptions
     public var webhookURL: String
     let GLIP_WEBHOOK_BASE_URL = "https://hooks.glip.com/webhook/"
     
+    /**
+        init is a constructor for the Poster class.
+
+        - parameter webhookURLOrId: The Glip webhook URL or webhook ID
+    */
     public init(webhookURLOrID:String) {
         options = PosterOptions(body: "")
         let needle: Character = "/"
@@ -12,7 +18,16 @@ public class Poster {
             webhookURL = self.GLIP_WEBHOOK_BASE_URL + webhookURLOrID
         }
     }
-    
+
+    /**
+        sendMessage allows a user to send a message to a Glip conversation
+        via a Glip webhook.
+
+        - parameter body: the text to be sent
+        - parameter activity: message activity metadata
+        - parameter icon: the icon to user as the poster in the conversation
+        - paramter title: the message title metadata
+    */
     public func sendMessage(body:String, activity:String?=nil, icon:String?=nil, title:String?=nil) {
         let messageOptions = PosterOptions(body: body, activity: activity, icon: icon, title: title)
         let requestOptions = self.options

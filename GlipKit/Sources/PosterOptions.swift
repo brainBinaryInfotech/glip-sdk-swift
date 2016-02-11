@@ -1,3 +1,4 @@
+/// PosterOptions represents message options to be sent via a Glip webhook.
 public class PosterOptions {
     public var body: String
     public var activity, icon, title: String?
@@ -23,7 +24,10 @@ public class PosterOptions {
             title = options.title
         }
     }
-    
+
+    /**
+        - returns a `String` representing the JSON request payload.
+    */
     public func toJSON() -> String {
         let dict = toDictionary()
         let jsonString: String?
@@ -38,6 +42,9 @@ public class PosterOptions {
         return jsonString!
     }
     
+    /**
+        - returns a `Dictionary<String, String>` representing the options dictionary.
+    */
     public func toDictionary() -> Dictionary<String, String> {
         var data:Dictionary<String, String> = ["body": body]
         
