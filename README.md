@@ -4,6 +4,7 @@ GlipKit SDK for iOS / OS X in Swift
 [![Version][version-svg]][version-link]
 [![Build Status][build-status-svg]][build-status-link]
 [![Coverage Status][coverage-status-svg]][coverage-status-link]
+[![Coverage Status2][coverage-status2-svg]][coverage-status2-link]
 [![Platform][platform2-svg]][platform-link]
 [![License][license-svg]][license-link]
 
@@ -131,12 +132,14 @@ Glip
 
  [version-svg]: https://img.shields.io/cocoapods/v/GlipKit.svg?style=flat
  [version-link]: http://cocoapods.org/pods/GlipKit
+ [build-status-svg]: https://api.travis-ci.org/grokify/glip-sdk-swift.svg?branch=master
+ [build-status-link]: https://travis-ci.org/grokify/glip-sdk-swift
+ [coverage-status-svg]: https://coveralls.io/repos/grokify/glip-sdk-swift/badge.svg?branch=master
+ [coverage-status-link]: https://coveralls.io/r/grokify/glip-sdk-swift?branch=master
+ [coverage-status2-svg]: http://codecov.io/github/grokify/glip-sdk-swift/coverage.svg?branch=master
+ [coverage-status2-link]: http://codecov.io/github/grokify/glip-sdk-swift?branch=master
  [platform-svg]: https://img.shields.io/cocoapods/p/GlipKit.svg?style=flat
  [platform2-svg]: https://img.shields.io/badge/platform-ios%20%7C%20osx-blue.svg
  [platform-link]: http://cocoapods.org/pods/GlipKit
- [build-status-svg]: https://api.travis-ci.org/grokify/glip-sdk-swift.svg?branch=master
- [build-status-link]: https://travis-ci.org/grokify/glip-sdk-swift
- [coverage-status-svg]: http://codecov.io/github/grokify/glip-sdk-swift/coverage.svg?branch=master
- [coverage-status-link]: http://codecov.io/github/grokify/glip-sdk-swift?branch=master
  [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
  [license-link]: https://github.com/grokify/glip-sdk-swift/blob/master/LICENSE
