@@ -1,11 +1,9 @@
+#travis
 language: objective-c
-osx_image: xcode7.2
-script: ./test.sh
+osx_image: xcode7.3
+
+before_install: rvm use $RVM_RUBY_VERSION
+install: bundle install --without=documentation --path ../travis_bundle_dir
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
-
-# Only build PRs and pushes to master
-branches:
-  only:
-    - master
-
+  - slather
+  - bash <(curl -s https://codecov.io/bash) -f coverage_report/cobertura.xml
