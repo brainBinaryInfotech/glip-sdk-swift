@@ -4,7 +4,6 @@ GlipKit SDK for iOS / OS X in Swift
 [![Version][version-svg]][version-link]
 [![Build Status][build-status-svg]][build-status-link]
 [![Coverage Status][coverage-status-svg]][coverage-status-link]
-[![Coverage Status2][coverage-status2-svg]][coverage-status2-link]
 [![Platform][platform2-svg]][platform-link]
 [![License][license-svg]][license-link]
 
