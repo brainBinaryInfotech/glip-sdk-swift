@@ -1,10 +1,10 @@
 GlipKit SDK for iOS / OS X in Swift
 ===================================
 
-[![Version](https://img.shields.io/cocoapods/v/GlipKit.svg?style=flat)](http://cocoapods.org/pods/GlipKit)
-[![Platform](https://img.shields.io/cocoapods/p/GlipKit.svg?style=flat)](http://cocoapods.org/pods/GlipKit)
+[![Version][version-svg]][version-link]
 [![Build Status][build-status-svg]][build-status-link]
 [![Coverage Status][coverage-status-svg]][coverage-status-link]
+[![Platform][platform2-svg]][platform-link]
 [![License][license-svg]][license-link]
 
 `GlipKit` is a SDK to make integration with Glip (https://glip.com/) easier. It supports only incoming communications (from you to Glip).
@@ -132,6 +132,7 @@ Glip
  [version-svg]: https://img.shields.io/cocoapods/v/GlipKit.svg?style=flat
  [version-link]: http://cocoapods.org/pods/GlipKit
  [platform-svg]: https://img.shields.io/cocoapods/p/GlipKit.svg?style=flat
+ [platform2-svg]: https://img.shields.io/badge/platform-ios%20%7C%20osx-blue.svg
  [platform-link]: http://cocoapods.org/pods/GlipKit
  [build-status-svg]: https://api.travis-ci.org/grokify/glip-sdk-swift.svg?branch=master
  [build-status-link]: https://travis-ci.org/grokify/glip-sdk-swift
