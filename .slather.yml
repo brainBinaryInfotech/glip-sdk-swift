@@ -3,7 +3,7 @@
 ci_service: travis_ci
 coverage_service: coveralls
 # coverage_service: cobertura_xml
-xcodeproj: project.xcodeproj
+xcodeproj: GlipKit.xcodeproj
 source_directory: GlipKit/Sources
 # output_directory: coverage_report/cobertura.xml
 ignore:
