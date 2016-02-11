@@ -26,7 +26,7 @@ public class Poster {
         - parameter body: the text to be sent
         - parameter activity: message activity metadata
         - parameter icon: the icon to user as the poster in the conversation
-        - paramter title: the message title metadata
+        - parameter title: the message title metadata
     */
     public func sendMessage(body:String, activity:String?=nil, icon:String?=nil, title:String?=nil) {
         let messageOptions = PosterOptions(body: body, activity: activity, icon: icon, title: title)

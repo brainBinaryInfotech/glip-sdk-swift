@@ -26,7 +26,7 @@ public class PosterOptions {
     }
 
     /**
-        - returns a `String` representing the JSON request payload.
+        - returns: a `String` representing the JSON request payload.
     */
     public func toJSON() -> String {
         let dict = toDictionary()
@@ -43,7 +43,7 @@ public class PosterOptions {
     }
     
     /**
-        - returns a `Dictionary<String, String>` representing the options dictionary.
+        - returns: a `Dictionary<String, String>` representing the options dictionary.
     */
     public func toDictionary() -> Dictionary<String, String> {
         var data:Dictionary<String, String> = ["body": body]
