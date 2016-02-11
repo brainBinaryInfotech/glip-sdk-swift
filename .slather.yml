@@ -1,0 +1,9 @@
+# .slather.yml
+
+coverage_service: cobertura_xml
+xcodeproj: project.xcodeproj
+source_directory: GlipKit/Sources
+output_directory: coverage_report/cobertura.xml
+ignore:
+  - GlipKitTests/*
+
