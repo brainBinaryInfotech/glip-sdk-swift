@@ -98,7 +98,7 @@ glip = Poster(YOUR_WEBHOOK_URL, icon: "http://example.com/icon.png")
 glip.sendMessage("Hi there!")
 ```
 
-## Supported Swift / XCode Versions
+## Supported Swift / Xcode Versions
 
 This library supports the following Xcode / Swift implementations:
 
